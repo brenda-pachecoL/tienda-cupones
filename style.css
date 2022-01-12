@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+h1{
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+p{
+    font-size: 18px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label{
+    width: 60%;
+    text-align: justify;
+   
+}
+input{
+    width: 40%;
+}
+
+button{
+    width: 40%;
+    margin: 20px;
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    width: 100%;
+}
