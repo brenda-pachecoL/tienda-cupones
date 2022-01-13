@@ -5,29 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cupones</title>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
 
     <article>
         <h1>Cupones</h1>
+        <label id="mostrarResultado"></label>
+        
         <section>
             <p>Verano</p>
             <p>Otoño</p>
             <p>Primavera</p>
         </section>
         <form>
-            <label for="precio">
-                Ingresa el precio del producto :
-            </label>
-            <input type="number" id="precio">
-            <label for="cupon">
-                ingresa el cupon que quieres validar:
-            </label>
-            <input type="text" id="cupon">
-            <button type="button">Validar Cupon</button>
+            <section class="container">
+                <label for="precio">
+                    Ingresa el precio del producto :
+                </label>
+                <input type="number" id="precio">
+            </section>
+            <section class="container">
+                <label for="cupon">
+                    ingresa el cupon que quieres validar:
+                </label>
+                <input type="text" id="cupon">
+            </section>
+            <button type="button" onclick="calculandoCupon()">Validar Cupon</button>
         </form>
     </article>
 
-    
+    <script src="./codigo.js"></script>
 </body>
 </html>
